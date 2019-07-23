@@ -1,0 +1,56 @@
+body {
+    background: rgb(4,189,87);
+    background: -moz-radial-gradient(circle, rgba(4,189,87,1) 0%, rgba(148,233,153,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(4,189,87,1) 0%, rgba(148,233,153,1) 100%);
+    background: radial-gradient(circle, rgba(4,189,87,1) 0%, rgba(148,233,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#04bd57",endColorstr="#94e999",GradientType=1);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /*height: 100vh;*/
+    display: grid;
+}
+.player{
+
+    display: flex;
+    flex-direction: column;
+    height:40%;
+    width: 40%;
+    position:relative;
+    margin:5rem auto;
+    align-content: center;
+}
+button{
+    padding:10px;
+    background-color: azure;
+    border-radius: 5px;
+    height: 20px;
+    width: 40%;
+    padding-bottom: 30px;
+    margin: 10px auto;
+}
+header{
+    text-align: center;
+    clip-path: polygon(
+            /*0 0,*/
+            6vw 0,
+            120% 10%,
+            150% 90%,
+            /*0 calc(100% + 8vw)*/
+    );
+    background-color: black;
+    color:white;
+    height: 80px;
+
+}
+video{
+    object-fit: cover;
+}
+.actions{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.actions label{
+    margin-right: 6rem;
+    cursor: pointer;
+}
