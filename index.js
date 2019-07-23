@@ -6,7 +6,6 @@ function uploadVideo() {
     reader.addEventListener("load", function () {
         video.src = reader.result;
     }, false);
-
     if (file) {
         reader.readAsDataURL(file);
     }
