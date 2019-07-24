@@ -18,15 +18,15 @@
 </header>
 
     <div class="player">
-        <h4>Who doesn't like Waterfalls? (you!) so go ahead and pick a video of your choice</h4>
+        <h4>There's no video here, just a simple thumbnail, go ahead and Upload a Video/Thumbnail!</h4>
    <div class="video">
     <video
-            src="https://tekeye.uk/html/images/Joren_Falls_Izu_Japan.mp4"
-           height="200"
-           controls="controls"
-             poster=""
+            src=""
+            height="200"
+            controls="controls"
+            poster="rain.jpeg"
 
-       >
+    >
 
     </video>
    </div>
@@ -36,6 +36,10 @@
                         Select Video
              </label>
              <input onchange="uploadVideo()" type="file" id="videoUpload"  style="display: none">
+            <label for="thumbnailUpload" class="btn btn-primary btn-block btn-outlined">
+                Select Thumbnail
+            </label>
+            <input onchange="uploadThumbnail()" type="file" id="thumbnailUpload"  style="display: none">
         </div>
     </div>
 </body>

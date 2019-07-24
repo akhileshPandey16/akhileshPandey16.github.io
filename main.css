@@ -49,8 +49,10 @@ video{
 }
 .actions{
     padding-left: 1rem;
+    padding-top: 1.4rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .actions label{
     margin-right: 6rem;
